@@ -1,18 +1,7 @@
 # singularity-asciinema
-[![Hosted](https://img.shields.io/badge/hosted-sylabs.io-green.svg)](https://cloud.sylabs.io/library/icaoberg/default/asciinema)
-![Release](https://img.shields.io/badge/release-v2.0.0-green.svg)
-[![Build Status](https://travis-ci.org/icaoberg/singularity-asciinema.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-asciinema)
-[![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-asciinema.svg)](https://github.com/icaoberg/singularity-asciinema/issues)
-[![GitHub forks](https://img.shields.io/github/forks/icaoberg/singularity-asciinema.svg)](https://github.com/icaoberg/singularity-asciinema/network)
-[![GitHub stars](https://img.shields.io/github/stars/icaoberg/singularity-asciinema.svg)](https://github.com/icaoberg/singularity-asciinema/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/quick-guide-gplv3.en.html)
 
 ## About the image
-This image has [asciinema](https://asciinema.org/) v2.0.0.
-
-## Pre-requisites
-
-* [Singularity v3.5.+](https://sylabs.io/docs/).
+This image has [asciinema](https://asciinema.org/) v2.0.2.
 
 ## Building the image using the recipe
 
@@ -23,27 +12,7 @@ Run the script `build.sh` to build image locally.
 bash ./build.sh
 ```
 
-### To build the image remotely remotely
-Run the script `rbuild.sh` to build image remotely.
-
-```
-bash ./rbuild.sh
-```
-
-You will need to edit the script above to match your account on [SyLabs.io](https://sylabs.io/).
-
-### Pulling from the repository
-If you have the client installed and cannot build the image locally nor remotely, simply run
-
-```
-singularity pull --arch amd64 library://icaoberg/default/asciinema:v2.0.0
-```
-
-## Disclaimer
-
-I am nothing but a humble programmer creating the container for this wonderful app.
-
 ---
-[![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
+[![PSC](http://www.andrew.cmu.edu/user/icaoberg/images/logos/psc.png)](http://www.psc.edu)
 
-Copyleft © 2019-2020 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Computational Biology Department](http://www.cbd.cmu.edu) in [Carnegie Mellon University](http://www.cmu.edu)
+[icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
