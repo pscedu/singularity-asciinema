@@ -1,23 +1,19 @@
 Bootstrap: docker
-From: debian:buster
+From: alpine:edge
 
 %labels
     AUTHOR icaoberg
-    EMAIL icaoberg@alumni.cmu.edu
+    EMAIL icaoberg@psc.edu
     WEBSITE http://www.andrew.cmu.edu/~icaoberg
-    VERSION 2.0.0
+    VERSION 2.0.2-r3
 
 %post
-    apt-get update
-    apt-get install -y --no-install-recommends apt-utils software-properties-common
-    apt-get update --fix-missing
+    apk update
+    apk search asciinema-2.0.2-r3
 
 ####################################################################################
 %appinstall asciinema
-    apt-get install -y asciinema
 
 %apphelp asciinema
-    asciinema --help    
 
 %apprun asciinema
-    asciinema "$@"
