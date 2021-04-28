@@ -1,8 +1,9 @@
 #!/bin/bash
 
-APP=asciinema
-VERSION=2.0.2-r3
-IMAGE=singularity-"$APP"-"$VERSION".sif
+# Copyright © 2021 Pittsburgh Supercomputing Center.
+# All Rights Reserved.
+
+IMAGE=singularity-asciinema-2.0.2-r3.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
@@ -10,3 +11,9 @@ if [ -f $IMAGE ]; then
 fi
 
 sudo singularity build $IMAGE $DEFINITION
+
+if [ -f $IMAGE ]; then
+	exit 0
+else
+	exit 1
+fi
