@@ -5,6 +5,7 @@ From: alpine:edge
     AUTHOR icaoberg
     EMAIL icaoberg@psc.edu
     WEBSITE http://www.andrew.cmu.edu/~icaoberg
+    COPYRIGHT Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved.
     VERSION 2.0.2-r3
 
 %post
