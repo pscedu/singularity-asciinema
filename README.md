@@ -1,3 +1,9 @@
+[Status](https://github.com/pscedu/singularity-asciinema/actions/workflows/main.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/pscedu/singularity-asciinema)
+![forks](https://img.shields.io/github/forks/pscedu/singularity-asciinema)
+![Stars](https://img.shields.io/github/stars/pscedu/singularity-asciinema)
+![License](https://img.shields.io/github/license/pscedu/singularity-asciinema)
+
 # singularity-asciinema
 [![Build Status](https://www.travis-ci.com/icaoberg/singularity-asciinema.svg?branch=main)](https://www.travis-ci.com/icaoberg/singularity-asciinema)
 
