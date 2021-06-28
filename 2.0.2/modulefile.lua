@@ -4,7 +4,7 @@
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Other"
 -- "Description: asciinema is a free and open source solution for recording terminal sessions and sharing them on the web."
--- "Keywords: singularity bioinformatics"
+-- "Keywords: singularity utilities"
 
 whatis("Name: asciinema")
 whatis("Version: 2.0.2")
