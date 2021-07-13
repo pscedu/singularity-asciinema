@@ -3,7 +3,7 @@
 # Copyright © 2021 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
-IMAGE=singularity-asciinema-2.0.2-r3.sif
+IMAGE=singularity-asciinema-2.0.2-r5.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
