@@ -11,7 +11,7 @@ Singularity recipe for [asciinema](https://github.com/sandialabs/asciinema).
 Copy the
 
 * `SIF` file
-* and the Perl scripts
+* and the `asciinema` script
 
 to `/opt/packages/asciinema/2.0.2`.
 
