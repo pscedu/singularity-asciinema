@@ -38,4 +38,4 @@ Tools included in this module are
 local package = "asciinema"
 local version = "2.0.2"
 local base    = pathJoin("/opt/packages",package,version)
-prepend_path("PATH", base
+prepend_path("PATH", base)
