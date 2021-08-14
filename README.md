@@ -6,6 +6,8 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-asciinema)
 
 # singularity-asciinema
+[![asciicast](https://asciinema.org/a/232377.svg)](https://asciinema.org/a/232377)
+
 Singularity recipe for [asciinema](https://github.com/sandialabs/asciinema).
 
 ## Installing the container on Bridges 2
